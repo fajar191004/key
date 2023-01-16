@@ -30,7 +30,7 @@ merah="\033[1;91m"
 biru="\033[1;96m"
 
 os.system("clear")
-autoketik(f"{biru}[{kuning}Warning{biru}] {W}Jangan Lupa")
+autoketik(f"{biru}[{kuning}Warning{biru}] {W}Jangan Lupa Subrek fajar cun")
 time.sleep(3)
 os.system("xdg-open https://www.youtube.com/results?search_query=fajar+cun")
 autoketik(f"{biru}[{kuning}Warning{biru}] {W}Thx yang udah subscribe, semoga work")
@@ -45,7 +45,7 @@ autoketik(f"""
 {putih}[{biru}•{putih}] {abu}GitHub {putih}   : Fajarcun
 {putih}[{biru}•{putih}] {merah}You{putih}Tube {putih}  : Fajarcun
 {putih}[{biru}•{putih}] {ungu}Instagram {putih}: @NOinstagram
-{W}[{Y}•{W}] Ip Kamu {putih}  :{Y} {ip}
+
 {W}[{Y}•{W}] Waktu/Jam {putih}:{Y} {localtime}
 {W}[{Y}•{W}] Total Run {putih}:{Y} {getvisit['value']}
 """)
