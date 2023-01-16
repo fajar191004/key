@@ -16,7 +16,7 @@ G = Fore.GREEN
 BL = Fore.BLACK
 Y = Fore.YELLOW
 
-ip=requests.get('https://api.ipify.org').text
+
 visitor=request.urlopen('https://api.countapi.xyz/hit/brutal-spam-wa')
 getvisit=json.loads(visitor.read())
 localtime=time.asctime(time.localtime(time.time()))
