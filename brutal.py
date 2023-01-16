@@ -30,7 +30,7 @@ merah="\033[1;91m"
 biru="\033[1;96m"
 
 os.system("clear")
-autoketik(f"{biru}[{kuning}Warning{biru}] {W}Jangan Lupa Subscribe Channel Fatih Arridho")
+autoketik(f"{biru}[{kuning}Warning{biru}] {W}Jangan Lupa")
 time.sleep(3)
 os.system("xdg-open https://www.youtube.com/results?search_query=fajar+cun")
 autoketik(f"{biru}[{kuning}Warning{biru}] {W}Thx yang udah subscribe, semoga work")
