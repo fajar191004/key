@@ -1,4 +1,4 @@
-import os,sys,time,os,json,requests,json
+import os,sys,time,os,json,json
 from colorama import Fore,Back,init
 from requests import get,post
 from urllib import request
