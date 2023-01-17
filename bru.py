@@ -1,4 +1,4 @@
-import os,sys,time,os,json,json
+import os,sys,time,os,json,requests,json
 from colorama import Fore,Back,init
 from requests import get,post
 from urllib import request
@@ -16,7 +16,7 @@ G = Fore.GREEN
 BL = Fore.BLACK
 Y = Fore.YELLOW
 
-
+ip=requests.get('https://api.ipify.org').text
 visitor=request.urlopen('https://api.countapi.xyz/hit/brutal-spam-wa')
 getvisit=json.loads(visitor.read())
 localtime=time.asctime(time.localtime(time.time()))
@@ -30,9 +30,9 @@ merah="\033[1;91m"
 biru="\033[1;96m"
 
 os.system("clear")
-autoketik(f"{biru}[{kuning}Warning{biru}] {W}Jangan Lupa Subrek fajar cun")
+autoketik(f"{biru}[{kuning}Warning{biru}] {W}Jangan Lupa Subscribe chanel guwe")
 time.sleep(3)
-os.system("xdg-open https://www.youtube.com/results?search_query=fajar+cun")
+os.system("xdg-open https://youtube.com/c/FatihArridhoo")
 autoketik(f"{biru}[{kuning}Warning{biru}] {W}Thx yang udah subscribe, semoga work")
 time.sleep(3)
 os.system("clear")
@@ -41,11 +41,11 @@ autoketik(f"""
 {hijau}╚═╗{merah}├─┘├─┤│││  {biru}║║║├─┤├─┤ │ {putih}└─┐{kuning}├─┤├─┘ ├─┘
 {hijau}╚═╝{merah}┴  ┴ ┴┴ ┴  {biru}╚╩╝┴ ┴┴ ┴ ┴ {putih}└─┘{kuning}┴ ┴┴   ┴ {ungu}V1
 {abu}-----------------------------------------
-{putih}[{biru}•{putih}] {biru}Author {putih}   : Fajar cun
-{putih}[{biru}•{putih}] {abu}GitHub {putih}   : Fajarcun
-{putih}[{biru}•{putih}] {merah}You{putih}Tube {putih}  : Fajarcun
-{putih}[{biru}•{putih}] {ungu}Instagram {putih}: @NOinstagram
-
+{putih}[{biru}•{putih}] {biru}Author {putih}   : no
+{putih}[{biru}•{putih}] {abu}GitHub {putih}   : mo
+{putih}[{biru}•{putih}] {merah}You{putih}Tube {putih}  : fajar
+{putih}[{biru}•{putih}] {ungu}Instagram {putih}: fahar
+{W}[{Y}•{W}] Ip Kamu {putih}  :{Y} {ip}
 {W}[{Y}•{W}] Waktu/Jam {putih}:{Y} {localtime}
 {W}[{Y}•{W}] Total Run {putih}:{Y} {getvisit['value']}
 """)
