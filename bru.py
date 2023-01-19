@@ -30,9 +30,9 @@ merah="\033[1;91m"
 biru="\033[1;96m"
 
 os.system("clear")
-autoketik(f"{biru}[{kuning}Warning{biru}] {W}Jangan Lupa Subscribe chanel guwe")
+autoketik(f"{biru}[{kuning}Warning{biru}] {W}Subscribe chanel fajar cun agar berhasil")
 time.sleep(3)
-os.system("xdg-open https://youtube.com/c/FatihArridhoo")
+os.system("xdg-open https://youtu.be/6U3xQF8OqXY")
 autoketik(f"{biru}[{kuning}Warning{biru}] {W}Thx yang udah subscribe, semoga work")
 time.sleep(3)
 os.system("clear")
@@ -41,10 +41,10 @@ autoketik(f"""
 {hijau}╚═╗{merah}├─┘├─┤│││  {biru}║║║├─┤├─┤ │ {putih}└─┐{kuning}├─┤├─┘ ├─┘
 {hijau}╚═╝{merah}┴  ┴ ┴┴ ┴  {biru}╚╩╝┴ ┴┴ ┴ ┴ {putih}└─┘{kuning}┴ ┴┴   ┴ {ungu}V1
 {abu}-----------------------------------------
-{putih}[{biru}•{putih}] {biru}Author {putih}   : no
-{putih}[{biru}•{putih}] {abu}GitHub {putih}   : mo
-{putih}[{biru}•{putih}] {merah}You{putih}Tube {putih}  : fajar
-{putih}[{biru}•{putih}] {ungu}Instagram {putih}: fahar
+{putih}[{biru}•{putih}] {biru}Author {putih}   : fajar cun
+{putih}[{biru}•{putih}] {abu}GitHub {putih}   : fajar cun
+{putih}[{biru}•{putih}] {merah}You{putih}Tube {putih}  : fajar cun
+{putih}[{biru}•{putih}] {ungu}Instagram {putih}: fajar cun
 {W}[{Y}•{W}] Ip Kamu {putih}  :{Y} {ip}
 {W}[{Y}•{W}] Waktu/Jam {putih}:{Y} {localtime}
 {W}[{Y}•{W}] Total Run {putih}:{Y} {getvisit['value']}
